@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 0;
+    background-image: url('https://avatars.mds.yandex.net/i?id=fb642297c8494185108c8020910c2ba0489eab31-4859870-images-thumbs&n=13'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 23px;
+}
+#button-container {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+#fetch-news-button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius:15px;
+    background-color:black;
+    color:white;
+    border:none;
+}
+#fetch-news-button:hover {
+    background-color: darkgray; 
+ }
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.news {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.news-content {
+    flex-grow: 1; 
+    padding: 15px; 
+}
+.news-image {
+    width: 450px; 
+    height: auto;
+    margin-left: 15px; 
+}
+
+.news-item {
+    display: flex;
+    align-items: flex-start; 
+    border:2px solid white;
+    border-radius:15px;
+    
+    margin-bottom: 20px;
+}
+
+    .news-item h2 {
+        margin-top: 0;
+    }
+
+footer {
+    text-align: center;
+    padding : 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+}
